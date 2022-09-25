@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #e3edf7;
+}
+.Heading h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 5;
+    padding-top: 200px ;
+    text-align: center;
+    margin: 10px auto;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: flex;
+    background: #ddd;
+    height: 75px;
+    width: 75px;
+    margin: 15px 10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,15),6px 6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgb(0,0, 0,0) ; 
+     ;
+}
+a i {
+    font-size: 28px;
+    color: #777;
+    transition: transfrom 0.5s
+    
+}
+a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,.2),inset -4px -4px 6px -1px rgba(255,255,255,0.7)
+    -0.5px -0.5px 0px rgba(255,255,255,1) 0.5px 0.5px 0px rgba(0,0,0,15) 0px 12px 10px -10px rgba(0,0,0,0.5);
+    border: 1px solid rgb(0,0, 0,01) ;
+    transform: translate(2px);
+
+}
+a:hover .fa-facebook{
+    color: #3b5998;
+}
+a:hover .fa-whatsapp{
+    color: #4fce5d;
+}
+a:hover .fa-instagram{
+    color: #f14843;
+}
+a:hover .fa-youtube{
+    color: #f00;
+}
